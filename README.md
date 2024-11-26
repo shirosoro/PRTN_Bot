@@ -35,7 +35,6 @@
 <h4><code>API_TOKEN = "ваш-токен"</code></h4>
 
 <h4>5. Добавьте языковые файлы en.json и ru.json в корень проекта. Пример содержимого можно найти в репозитории.</h4>
-<h4><code>pip install -r requirements.txt</code></h4>
 
 <h4>6. Запустите бота:</h4>
 <h4><code>python main.py</code></h4>

@@ -1,0 +1,106 @@
+{
+  "start": [
+    "Welcome to the PRTN Bot!",
+
+    "Here is a list of available commands:",
+
+    "/buy - Find out where and how to buy the PRTN token, with links to guides and exchanges.",
+    "/price - Get the current token price, including hourly, daily, and weekly percentage changes, as well as 24h trading volume.",
+    "/contract - View the PRTN token's contract address for transparency and verification.",
+
+    "/contacts - Access community and official social media links (Telegram group, YouTube, VK, etc.).",
+    "/donate - Show support by donating to the project. Includes the TON wallet address.",
+    "/info - Learn about the PRTN token, its purpose, and key details about its creation and tokenomics.",
+
+    "/language - Change bot language.",
+    "⚠️ *Note:* Investing in PRTN involves risks. Make sure to read all the provided information before making any decisions."
+  ],
+  "contract": [
+    "<b>Contract Address:</b>",
+
+    "<code>EQBCHMY4xNfQn9tU70qlibOcl8YbSrXb4-J_rAVqeTsAWlJu</code>",
+
+    "🔗 <a href='https://tonviewer.com/EQBCHMY4xNfQn9tU70qlibOcl8YbSrXb4-J_rAVqeTsAWlJu'>View on Tonviewer</a>"
+  ],
+  "donate": [
+    "<b>Support the Project</b>",
+
+    "If you want to support us, you can make a donation:",
+
+    "TON Address:",
+    "<code>UQAngCsaT-M1pEs5SEp5Tj4q_6ZppYWZnbUiW0B4pDKHvRS5</code>",
+
+    "Thank you for your support! 🙌"
+  ],
+  "contacts": [
+    "📢 Token Group: <a href='https://t.me/prtn_fun_token'>@prtn_fun_token</a>",
+    "🎥 YouTube: <a href='https://www.youtube.com/channel/UCZmGPl4jnVmfR5IJaqE0J9Q'>ПроТОН</a>",
+    "🌐 VK: <a href='https://vk.com/protonmining'>ПроТОН | Майнинг, криптовалюта, инвестиции</a>",
+    "📬 Telegram: <a href='https://t.me/proton_miners'>ПроТОН | Майнинг, криптовалюта, инвестиции</a>"
+  ],
+  "buy": [
+    "<b>🚀 How to Buy PRTN:</b>",
+
+    "🔹 <a href='https://t.me/prtn_fun_token/349/463'>HotWallet (Video Guide)</a>",
+    "🔹 <a href='https://telegra.ph/Kak-kupit-PRTN-c-pomoshchyu-Tonkeeper-11-17'>Using Tonkeeper</a>",
+
+    "<b>📊 Price Monitoring:</b>",
+    "🔗 <a href='https://coinmarketcap.com/dexscan/ton/EQCkbiUaQ_steHzTGSWEu9K9DGxxYqD7zfqdDmnqnGEJxFw5/'>CoinMarketCap</a>",
+    "🔗 <a href='https://www.geckoterminal.com/ru/ton/pools/EQCkbiUaQ_steHzTGSWEu9K9DGxxYqD7zfqdDmnqnGEJxFw5'>GeckoTerminal</a>",
+    "🔗 <a href='https://dexscreener.com/ton/eqckbiuaq_stehztgsweu9k9dgxxyqd7zfqddmnqngejxfw5'>DexScreener</a>",
+
+    "<b>📈 Where to Trade (DEX):</b>",
+    "🔄 <a href='https://app.ston.fi/swap?chartVisible=false&chartInterval=1w&ft=TON&tt=EQBCHMY4xNfQn9tU70qlibOcl8YbSrXb4-J_rAVqeTsAWlJu'>ston.fi</a>",
+
+    "<b>📖 Additional Resources:</b>",
+    "🔹 <a href='https://t.me/prtn_fun_token/353/2454?single'>How to Add PRTN to Tangem Wallet</a>",
+    "🔹 <a href='https://t.me/prtn_fun_token/392/5591'>How to Add Liquidity to a Pool</a>"
+  ],
+
+  "info": [
+    "<b>PRTN: Community Fan Token on TON Blockchain</b>",
+    "<b>🌟 Creation:</b>",
+    "- Made in just two clicks using HOT Wallet.",
+    "- No inherent value except what holders assign to it.",
+    "- No ownership: the contract was issued with ownership renounced from the start.",
+
+    "<b>🔢 Supply:</b>",
+    "- Total supply: <b>1 billion tokens</b>.",
+    "- The creator burned their share:",
+    "  - <b>75,000,000 tokens</b> sent to a non-existent address.",
+    "  - <b>10,000,000 tokens</b> gifted to Pavel Durov.",
+    "- <b>8.5% of the supply</b> was permanently removed from circulation.",
+
+    "<b>🔄 Usage:</b>",
+    "- Buy, sell, trade, store, gift, or burn.",
+    "- The rules are entirely up to the community.",
+
+    "<b>🎯 Purpose:</b>",
+    "- Created for fun, not profit.",
+    "- A demonstration that anyone can create a token just as easily.",
+
+    "<b>🤝 Community-driven:</b>",
+    "- The future, development, and purpose depend entirely on token holders' initiative.",
+
+    "<b>⚠️ Disclaimer:</b>",
+    "- No promises, no obligations.",
+    "- You are welcome to stay, but if you leave, nobody will care.",
+    "- Be aware: others might aim to profit at your expense, just as you might wish to do the same.",
+    "- <b>By buying this token, you risk losing all your money. Do not buy it!</b>"
+  ],
+
+"token_info": {
+    "title": "📊 <b>Token Information</b>",
+    "price": "💰 <b>Current Price: <code>${price}</code></b>",
+    "price_changes": {
+        "title": "⏳ <b>Price Changes:</b>",
+        "hour": "🔹 1 Hour: <code>{price_change_hour}</code>",
+        "day": "🔹 24 Hours: <code>{price_change_day}</code>"
+    },
+    "volume": "📈 <b>Volume (24h): <code>${volume}</code></b>",
+    "liquidity": "💧 <b>Liquidity: <code>${liquidity_usd}</code></b>",
+    "unavailable_data": "Token data is unavailable.",
+    "fetch_error": "Failed to fetch data from the API."
+}
+
+}
